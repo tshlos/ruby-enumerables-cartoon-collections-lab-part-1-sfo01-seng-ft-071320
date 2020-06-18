@@ -14,7 +14,7 @@ def list_dwarves(array)
   
   
   array.each.with_index(1) do |characters, index|
-    print "#{index}. #{characters}"
+    puts "#{index}. #{characters}"
   end
   
 end
